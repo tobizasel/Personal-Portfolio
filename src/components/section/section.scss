@@ -1,0 +1,49 @@
+.section {
+  font-family: Centra, "sans-serif";
+  margin: 50px 0px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 150px 0;
+
+
+  &__titles {
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    max-width: 50%;
+    font-family: Centra, 'sa';
+
+    .section__welcome--wrapper {
+      
+      background: #005C97;  /* fallback for old browsers */
+      background: -webkit-linear-gradient(to right, #1f316b, #005C97);  /* Chrome 10-25, Safari 5.1-6 */
+      background: linear-gradient(to right, #1f316b, #005C97); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */  
+      color: #fff;
+      padding: 20px;
+      max-width: 320px;
+      text-align: center;
+      margin-bottom: 10px;
+      border: #d5d5d5 2px solid;
+      border-radius: 5px;
+      
+      .section__welcome {
+        margin: 0;
+      }
+    }
+
+    .section__title {
+      font-size: 3.5rem;
+    }
+
+    .section__text{
+        margin-top: 20px;
+
+    }
+  }
+
+  &__img {
+    width: 400px;
+    height: 400px;
+  }
+}

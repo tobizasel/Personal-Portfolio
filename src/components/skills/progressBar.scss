@@ -1,0 +1,50 @@
+.skill{
+    width: 160px;
+    height: 160px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .outer{
+        height: 160px;
+        width: 160px;
+        border-radius: 50%;
+        padding: 20px;
+        background-color: #fff;
+        box-shadow: 6px 6px 10px -1px rgba($color: #fff, $alpha: .15), -6px -6px 10px -1px rgba($color: #fff, $alpha: .15);;
+        
+
+        .inner{
+            height: 120px;
+            width: 120px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: #000;
+            color: #fff;
+
+            .number{
+                font-weight: 700;
+                font-family: Centra, 'sans-serif';
+
+            }
+        }
+
+    }
+
+}
+
+.skill--stroke{
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    circle{
+        fill: none;
+        stroke: url(#GradientColor);
+        stroke-width: 20px;
+        stroke-dasharray: 472;
+
+    }
+}
